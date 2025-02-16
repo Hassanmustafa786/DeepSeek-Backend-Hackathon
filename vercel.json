@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [{ "src": "app-server.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "app-server.py" }]
+}
+
+git remote add origin https://github.com/Hassanmustafa786/AI-Teaching-Assistants-for-Schools.git
